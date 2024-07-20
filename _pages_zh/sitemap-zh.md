@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "Sitemap"
-permalink: /sitemap/
+title: "网站导航"
+permalink: /zh/sitemap/
 author_profile: true
-locale: en
+locale: zh
 ---
 
 {% include base_path %}

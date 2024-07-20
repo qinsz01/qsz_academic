@@ -1,5 +1,5 @@
 # main links links
-main:
+en:
   - title: "Publications"
     url: /publications/
 
@@ -17,6 +17,29 @@ main:
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+
+  - title: "中文"
+    url: zh
+
+zh:
+  - title: "论文"
+    url: /zh/publications/
+
+  - title: "报告"
+    url: /zh/talks/
+  
+  - title: "教学"
+    url: /zh/teaching/
+  
+  - title: "资源"
+    url: /zh/portfolio/
+  
+  - title: "动态"
+    url: /zh/year-archive/
+
+  - title: "简历"
+    url: /zh/cv/
+
+  - title: "English"
+    url: en
+

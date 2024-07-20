@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "简历"
+permalink: /zh/cv/
 author_profile: true
 redirect_from:
-  - /resume
-locale: en
+  - /zh/resume
+locale: zh
 ---
 
 {% include base_path %}

@@ -6,14 +6,26 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.data.ui-text[page.locale].title }}</a></li>
+          {% if page.url contains 'zh' %}
+            {% assign navs = site.data.navigation.zh %}
+            {% else %}
+            {% assign navs = site.data.navigation.en %}
+          {% endif %}
+          {% for link in navs %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url == 'zh' %}
+              {% assign new_url = '/zh'| append: page.url %}
+              {% elsif link.url == 'en' %}
+              {% assign new_url = page.url | remove_first: "/zh" %}
+              {% else %}
+              {% assign new_url = link.url %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ new_url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "论文"
+permalink: /zh/publications/
 author_profile: true
-locale: en
+locale: zh
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">你也可以直接进入我的<a href="{{site.author.googlescholar}}">Google学术主页</a>.</div>
 {% endif %}
 
 {% include base_path %}
