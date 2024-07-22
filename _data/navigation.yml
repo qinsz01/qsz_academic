@@ -3,14 +3,14 @@ en:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/    
 
-  - title: "Experience"
-    url: /experience/    
+  # - title: "Experience"
+  #   url: /experience/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
   - title: "Blog Posts"
     url: /year-archive/
@@ -25,14 +25,14 @@ zh:
   - title: "论文"
     url: /zh/publications/
 
-  - title: "报告"
-    url: /zh/talks/
+  # - title: "报告"
+  #   url: /zh/talks/
   
-  - title: "经历"
-    url: /zh/experience/
+  # - title: "经历"
+  #   url: /zh/experience/
   
-  - title: "资源"
-    url: /zh/portfolio/
+  # - title: "资源"
+  #   url: /zh/portfolio/
   
   - title: "动态"
     url: /zh/year-archive/

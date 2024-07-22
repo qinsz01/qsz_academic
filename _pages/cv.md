@@ -12,9 +12,9 @@ locale: en
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Department of Civil Engineering, Tsinghua University, 2023-now
+* B.S. major in Department of Civil Engineering, Tsinghua University, 2019-2023
+* B.S. minor in Department of Software Engineering, Tsinghua University, 2021-2023
 
 Work experience
 ======
@@ -48,7 +48,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -62,4 +62,4 @@ Experience
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
