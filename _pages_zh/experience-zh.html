@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "经历"
+permalink: /zh/experience/
+author_profile: true
+locale: zh
+---
+
+{% include base_path %}
+
+{% for post in site.experience reversed %}
+  {% include archive-single.html %}
+{% endfor %}

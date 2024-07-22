@@ -6,8 +6,8 @@ en:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Experience"
+    url: /experience/    
     
   - title: "Portfolio"
     url: /portfolio/
@@ -28,8 +28,8 @@ zh:
   - title: "报告"
     url: /zh/talks/
   
-  - title: "教学"
-    url: /zh/teaching/
+  - title: "经历"
+    url: /zh/experience/
   
   - title: "资源"
     url: /zh/portfolio/
