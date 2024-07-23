@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "简历"
+title: "教育经历"
 permalink: /zh/cv/
 author_profile: true
 redirect_from:
@@ -10,56 +10,80 @@ locale: zh
 
 {% include base_path %}
 
-Education
+<!-- 教育经历
+====== -->
+* 2023-至今，博士（在读） 土木工程，清华大学
+* 2021-2023，辅修工学学士学位，软件工程，清华大学，GPA: 3.85/4.00， 30学分
+* 2019-2023，主修工学学士学位，土木、水利与海洋工程（土木工程方向），清华大学，GPA: 3.98/4.00， 191学分
+
+工作经历
 ======
-* Ph.D in Department of Civil Engineering, Tsinghua University, 2023-now
-* B.S. major in Department of Civil Engineering, Tsinghua University, 2019-2023
-* B.S. minor in Department of Software Engineering, Tsinghua University, 2021-2023
+* 2023，本科生课程《土木工程与防灾减灾》，助教
+* 2023，研究生课程《灾害学》，助教
+* 2020-2022，清华大学土木工程系暨建设管理系学生科协，部员、部长、主席
+* 2019-2021，清华大学学生创客空间社团，会员、常务副会长
 
-Work experience
+荣誉
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+学业荣誉
+------
+* 2023.08，清华大学博士生“未来学者”奖学金
+* 2023.06，清华大学优秀毕业生
+* 2023.06，北京市优秀毕业生
+* 2022.12，清华大学本科生特等奖学金提名（全校共15人）
+* 2022.12，国家奖学金
+* 2022.12，清华大学综合优秀奖学金
+* 2022.12，清华大学科技创新优秀奖学金（清华之友-龙湖奖学金）
+* 2022.03，茅以升科学技术奖——工程教育学生奖（全国共9人）
+* 2021.12，清华大学综合优秀奖学金（清华之友-汐泰奖学金）
+* 2020.12，清华大学综合优秀奖学金（清华之友-恒大奖学金）
+* 2020.12，清华大学实践优秀奖学金（清华之友-金门一等奖学金）
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+科学研究
+------
+* 2024.06，“星河奖”（土木工程诊治与运维领域）优秀论文银奖（唯二学生获奖）
+* 2023.12，北京市普通高校优秀本科毕业设计（论文）
+* 2023.06，清华大学本科生综合论文训练优秀论文
+* 2023.05，第48届日内瓦国际发明展评审团特别嘉许金奖（团队内唯一本科生）
+
+科创竞赛
+------
+* 2024.07，“北京西城 · 高校发展联盟”青年数字创新创意大赛一等奖（2/100+)
+* 2022.12，“盈建科杯”全国大学生智能建造数字化设计大赛一等奖（队长，1/600+)
+* 2022.07，“中铁十四局杯”第四届“茅以升公益桥-小桥工程”创新设计大赛特等奖（队长，1/99)
+
+技能
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **计算机技能**
+  * **编程语言：**python、C、C++、C#、java、js、matlab、sql
+  * **前端**：Vue.js
+  * **后端**：Django、flask
+  * **操作系统**：Windows、Linux
+  * **AI**：基本熟悉深度学习和机器学习常用模型（CNN、RNN、GNN、LSTM、Transformer……）
+* **有限元分析**
+  * Marc、Midas、SAP2000
+* **建模绘图**
+  * AutoCAD、Revit、Sketchup
 
-Publications
+论文发表
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Experience
 ======
   <ul>{% for post in site.experience reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->

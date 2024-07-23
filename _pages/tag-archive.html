@@ -1,18 +1,33 @@
 ---
 layout: archive
 permalink: /tags/
-title: "Posts by Tags"
+title: "Publications"
 author_profile: true
 locale: en
 ---
 
 {% include base_path %}
+{% include group-by-array collection=site.publications field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ site.data.ui-text[page.locale][tag] }}</h2>
+  {% for post in posts %}
+    {% if post.locale==page.locale %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<h1>Posts</h1>
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ site.data.ui-text[page.locale][tag] }}</h2>
   {% for post in posts %}
-    {% include archive-single.html %}
+    {% if post.locale==page.locale %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
