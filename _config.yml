@@ -37,7 +37,7 @@ author:
   orcid            : "https://orcid.org/0009-0000-8237-6535"
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Sizhong-Qin"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/%E6%80%9D%E4%B8%AD-%E8%A6%83-03ba522ab/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
