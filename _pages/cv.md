@@ -23,7 +23,7 @@ Work Experience
 Honors
 ======
 
-Academic Honors
+Education
 ------
 * 2023.08, Tsinghua University Ph.D. "Future Scholar" Scholarship
 * 2023.06, Tsinghua University Outstanding Graduate
@@ -37,14 +37,14 @@ Academic Honors
 * 2020.12, Tsinghua University Comprehensive Excellence Scholarship (Tsinghua Friends - Hengda Scholarship)
 * 2020.12, Tsinghua University Practice Excellence Scholarship (Tsinghua Friends - Gammon First-Class Scholarship)
 
-Scientific Research
+Research
 ------
 * 2024.06, "Galaxy Award" (Civil Engineering Diagnosis and Maintenance) Excellent Paper Silver Award (one of two student recipients)
 * 2023.12, Excellent Undergraduate Graduation Design (Thesis) of Beijing Regular Higher Education Institutions
 * 2023.06, Excellent Undergraduate Thesis in Comprehensive Paper Training, Tsinghua University
 * 2023.05, Gold with congratulations of the jury at the 48th Geneva International Invention Exhibition (sole undergraduate in the team)
 
-Innovation Competitions
+Competitions
 ------
 * 2024.07, First Prize in "Beijing Xicheng · University Development Alliance" Youth Digital Innovation and Creativity Competition (2/100+)
 * 2022.12, First Prize in the National College Student Intelligent Construction Digital Design Competition "YJK Cup" (Team Leader, 1/600+)
