@@ -1,3 +1,4 @@
 <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+{% include base_path %}
+<a href="{{ base_path }}/{% if page.locale=='zh' %}zh/{% else %}{% endif %}sitemap/">Sitemap</a>
 <!-- end custom footer snippets -->
