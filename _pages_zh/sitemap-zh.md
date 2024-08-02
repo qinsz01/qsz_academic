@@ -8,7 +8,7 @@ locale: zh
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+本网站展示了页面和文章的列表。
 
 <h2>{{site.data.ui-text[page.locale].page}}</h2>
 {% for post in site.pages %}
