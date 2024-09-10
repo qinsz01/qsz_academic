@@ -44,6 +44,18 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.header.teaser %}
+        <div class="page__teaser">
+          <img src=
+            {% if page.header.teaser contains "://" %}
+              "{{ page.header.teaser }}"
+            {% else %}
+              "{{ page.header.teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        </div>
+      {% endif %}
+
       <section class="page__content" itemprop="text">
         {{ content }}
 
