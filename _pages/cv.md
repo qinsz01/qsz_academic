@@ -26,13 +26,13 @@ Honors
 Education
 ------
 * 2023.08, Tsinghua University Ph.D. "Future Scholar" Scholarship
+* 2023.07, Beijing Outstanding Graduate
 * 2023.06, Tsinghua University Outstanding Graduate
-* 2023.06, Beijing Outstanding Graduate
+* 2023.03, Mao Yisheng Science and Technology Award - Engineering Education Student Award (Nationwide, 9 recipients)
 * 2022.12, Nominee for Tsinghua University Undergraduate Special Scholarship (Top 15 in the University)
 * 2022.12, National Scholarship
 * 2022.12, Tsinghua University Comprehensive Excellence Scholarship
 * 2022.12, Tsinghua University Science and Technology Innovation Excellence Scholarship (Tsinghua Friends - Longhu Scholarship)
-* 2022.03, Mao Yisheng Science and Technology Award - Engineering Education Student Award (Nationwide, 9 recipients)
 * 2021.12, Tsinghua University Comprehensive Excellence Scholarship (Tsinghua Friends - Xitai Scholarship)
 * 2020.12, Tsinghua University Comprehensive Excellence Scholarship (Tsinghua Friends - Hengda Scholarship)
 * 2020.12, Tsinghua University Practice Excellence Scholarship (Tsinghua Friends - Gammon First-Class Scholarship)
