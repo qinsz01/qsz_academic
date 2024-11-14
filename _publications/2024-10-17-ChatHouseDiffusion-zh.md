@@ -1,12 +1,12 @@
 ---
-title: 'ChatHouseDiffusion: Prompt-Guided Generation and Editing of Floor Plans'
+title: 'ChatHouseDiffusion: Prompt-guided generation and editing of floor plans'
 collection: publications
 permalink: /zh/publication/2024-10-17-ChatHouseDiffusion
 excerpt: '开发了一种新方法，利用大语言模型、Graphormer和扩散模型来交互式生成和编辑房间平面布局图。'
 date: 2024-10-17
 venue: 'arXiv'
 paperurl: 'https://doi.org/10.48550/arXiv.2410.11908'
-citation: 'QIN S Z, HE C Y, CHEN Q Y, et al. ChatHouseDiffusion: Prompt-Guided Generation and Editing of Floor Plans[A/OL]. arXiv, 2024[2024-10-17]. http://arxiv.org/abs/2410.11908. DOI:10.48550/arXiv.2410.11908.'
+citation: 'QIN S Z, HE C Y, CHEN Q Y, et al. ChatHouseDiffusion: Prompt-guided generation and editing of floor plans[A/OL]. arXiv, 2024[2024-10-17]. http://arxiv.org/abs/2410.11908. DOI:10.48550/arXiv.2410.11908.'
 locale: zh
 header:
     teaser: "2024-10-17-ChatHouseDiffusion.png"
