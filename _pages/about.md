@@ -12,7 +12,7 @@ I am Sizhong Qin, currently a Ph.D. student in [the Department of Civil Engineer
 
 My research interests include intelligent design and construction of building structures, focusing on the application of cutting-edge artificial intelligence technologies such as LLM and Diffusion models in civil engineering to explore the future directions of intelligent civil engineering.
 
-From August 2025 onward, I have been a Visiting Scholar at the Center for the Built Environment (CBE), University of California, Berkeley, where I collaborate with Professor [Ramon Weber](https://ced.berkeley.edu/people/ramon-weber). My research at CBE focuses on intelligent architectural–structural co-design and its applications in building science, further advancing interdisciplinary research at the intersection of architecture, structural engineering, and artificial intelligence.
+From August 2025 onward, I have been a Visiting Scholar at [the Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), University of California, Berkeley, where I collaborate with Professor [Ramon Weber](https://ced.berkeley.edu/people/ramon-weber). My research at CBE focuses on intelligent architectural–structural co-design and its applications in building science, further advancing interdisciplinary research at the intersection of architecture, structural engineering, and artificial intelligence.
 
 
 I can be reached at qsz23`at`mails.tsinghua.edu.cn, and I welcome collaboration and communication with interested colleagues.
