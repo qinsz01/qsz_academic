@@ -55,4 +55,11 @@
     padding-right: 3em;
     font-weight: 700;
   }
+
+  &--active {
+    a {
+      color: $link-color;
+      font-weight: 600;
+    }
+  }
 }

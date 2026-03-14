@@ -25,7 +25,7 @@
               {% else %}
               {% assign new_url = link.url %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ new_url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item{% if link.url != 'zh' and link.url != 'en' and page.url contains link.url %} masthead__menu-item--active{% endif %}"><a href="{{ domain }}{{ new_url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

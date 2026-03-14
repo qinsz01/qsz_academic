@@ -9,24 +9,22 @@ locale: en
 ---
 
 {% include base_path %}
-* 2025.08-Present, Visiting Scholar at Center for Built Environment, UC Berkeley
+* 2025.08-2026.02, Visiting Scholar at Center for Built Environment, UC Berkeley
 * 2023-Present, Ph.D. Student in Civil Engineering, Tsinghua University
 * 2021-2023, Minor in Bachelor of Engineering, Software Engineering, Tsinghua University, GPA: 3.85/4.00, 30 Credits
 * 2019-2023, Major in Bachelor of Engineering, Civil, Hydraulic, and Marine Engineering (Civil Engineering Focus), Tsinghua University, GPA: 3.98/4.00, 191 Credits
 
-Work Experience
-======
+## Work Experience
+
 * 2025.06-2025.08, Intership, MLLM Algorithm Engineer, Kuaishou Technology
 * 2023-2024, Teaching Assistant for Undergraduate Course "Civil Engineering and Disaster Mitigation"
 * 2023-2024, Teaching Assistant for Graduate Course "Disaster Science"
 * 2020-2022, Member, Minister, and President, Student Association for Science and Technology, Department of Civil Engineering and Construction Management, Tsinghua University
 * 2019-2021, Member and Executive Vice President, Tsinghua University Student Makerspace Association
 
-Honors
-======
+## Honors
 
-Education
-------
+### Education
 * 2024.12，Tsinghua University First-Class Comprehensive Excellence Scholarship
 * 2023.08, Tsinghua University Ph.D. "Future Scholar" Scholarship
 * 2023.07, Beijing Outstanding Graduate
@@ -40,22 +38,19 @@ Education
 * 2020.12, Tsinghua University Comprehensive Excellence Scholarship (Tsinghua Friends - Hengda Scholarship)
 * 2020.12, Tsinghua University Practice Excellence Scholarship (Tsinghua Friends - Gammon First-Class Scholarship)
 
-Research
-------
+### Research
 * 2025.06, Tsinghua University’s first “Tanzhen Scholars” (15 recipients university-wide).
 * 2024.06, "Galaxy Award" (Civil Engineering Diagnosis and Maintenance) Excellent Paper Silver Award (one of two student recipients)
 * 2023.12, Excellent Undergraduate Graduation Design (Thesis) of Beijing Regular Higher Education Institutions
 * 2023.06, Excellent Undergraduate Thesis in Comprehensive Paper Training, Tsinghua University
 * 2023.05, Gold with congratulations of the jury at the 48th Geneva International Invention Exhibition (sole undergraduate in the team)
 
-Competitions
-------
+### Competitions
 * 2024.07, First Prize in "Beijing Xicheng · University Development Alliance" Youth Digital Innovation and Creativity Competition (2/100+)
 * 2022.12, First Prize in the National College Student Intelligent Construction Digital Design Competition "YJK Cup" (Team Leader, 1/600+)
 * 2022.07, Grand Prize in the Fourth "Mao Yisheng Public Welfare Bridge - Small Bridge Project" Innovation Design Competition "China Railway 14th Bureau Cup" (Team Leader, 1/99)
 
-Skills
-======
+## Skills
 * **Computer Skills**
   * **Programming Languages:** Python, C, C++, C#, Java, JS, Matlab, SQL
   * **Frontend:** Vue.js
@@ -67,8 +62,7 @@ Skills
 * **Modeling and Drawing**
   * AutoCAD, Revit, Sketchup
 
-Publications
-======
+## Publications
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>

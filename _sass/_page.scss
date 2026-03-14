@@ -51,7 +51,8 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
+    margin-top: 2em;
+    padding-bottom: 0.3em;
     border-bottom: 1px solid $border-color;
   }
 
@@ -62,6 +63,7 @@
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    line-height: 1.7;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
