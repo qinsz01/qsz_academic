@@ -1,0 +1,12 @@
+[Unit]
+Description=Build and deploy qsz_academic static site
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/qsz/qsz_academic
+EnvironmentFile=-/home/ubuntu/qsz/qsz_academic/deploy/deploy.env
+ExecStart=/home/ubuntu/qsz/qsz_academic/deploy/deploy.sh
+
