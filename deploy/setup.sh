@@ -125,6 +125,11 @@ if [[ -z "$WWW_DOMAIN" ]]; then
   WWW_DOMAIN="www.$DOMAIN"
 fi
 
+CERT_FULLCHAIN="/etc/letsencrypt/live/$DOMAIN/fullchain.pem"
+CERT_PRIVKEY="/etc/letsencrypt/live/$DOMAIN/privkey.pem"
+CERTBOT_SSL_OPTIONS="/etc/letsencrypt/options-ssl-nginx.conf"
+CERTBOT_SSL_DHPARAM="/etc/letsencrypt/ssl-dhparams.pem"
+
 if [[ ! -f "$ENV_EXAMPLE" ]]; then
   die "missing env example: $ENV_EXAMPLE"
 fi
@@ -197,6 +202,42 @@ systemctl daemon-reload
 systemctl enable --now "$TIMER_NAME"
 
 log "Creating nginx site config"
+if [[ -f "$CERT_FULLCHAIN" && -f "$CERT_PRIVKEY" && -f "$CERTBOT_SSL_OPTIONS" && -f "$CERTBOT_SSL_DHPARAM" ]]; then
+cat > "$NGINX_SITE" <<EOF
+server {
+    server_name $DOMAIN $WWW_DOMAIN;
+
+    root $DEPLOY_ROOT/current;
+    index index.html;
+
+    location / {
+        try_files \$uri \$uri/ \$uri.html =404;
+    }
+
+    location ~* \\.(css|js|jpg|jpeg|png|gif|ico|svg|webp|ttf|otf|woff|woff2)$ {
+        expires 7d;
+        add_header Cache-Control "public, max-age=604800, immutable";
+        try_files \$uri =404;
+    }
+
+    error_page 404 /404.html;
+
+    listen [::]:443 ssl ipv6only=on;
+    listen 443 ssl;
+    ssl_certificate $CERT_FULLCHAIN;
+    ssl_certificate_key $CERT_PRIVKEY;
+    include $CERTBOT_SSL_OPTIONS;
+    ssl_dhparam $CERTBOT_SSL_DHPARAM;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name $DOMAIN $WWW_DOMAIN;
+    return 301 https://\$host\$request_uri;
+}
+EOF
+else
 cat > "$NGINX_SITE" <<EOF
 server {
     listen 80;
@@ -207,7 +248,7 @@ server {
     index index.html;
 
     location / {
-        try_files \$uri \$uri/ =404;
+        try_files \$uri \$uri/ \$uri.html =404;
     }
 
     location ~* \\.(css|js|jpg|jpeg|png|gif|ico|svg|webp|ttf|otf|woff|woff2)$ {
@@ -219,6 +260,7 @@ server {
     error_page 404 /404.html;
 }
 EOF
+fi
 
 ln -sfn "$NGINX_SITE" "$NGINX_ENABLED"
 nginx -t
