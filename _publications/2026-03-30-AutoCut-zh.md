@@ -10,8 +10,8 @@ citation: 'ZHOU M, QIN S Z, LI Y, et al. End-to-end Advertisement Video Editing 
 locale: zh
 header:
     teaser: "2026-03-30-AutoCut.png"
-tags: 
-    - coauthor
+tags:
+    - cofirst
     - english
 ---
 
