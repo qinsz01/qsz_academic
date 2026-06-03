@@ -16,6 +16,11 @@ I am Sizhong Qin, currently a Ph.D. student in [the Department of Civil Engineer
 - Large Language Models (LLM) in civil engineering applications
 - Diffusion models for structural design
 
+## Featured Projects
+
+- [StructureClaw](https://github.com/structureclaw/structureclaw): an open-source AI workspace for structural engineering that turns natural-language engineering intents into traceable workflows for structural modeling, analysis, code checks, and reports.
+- [AI-structure Copilot](https://ai-structure.com/): a CAD-integrated intelligent design assistant for building structures using a local-cloud collaborative workflow for shear wall design, optimization, and analysis-model generation.
+
 ## Visiting Scholar Experience
 
 From August 2025 to February 2026, I was a Visiting Scholar at [the Center for the Built Environment (CBE)](https://cbe.berkeley.edu/), University of California, Berkeley, where I collaborated with Professor [Ramon Weber](https://ced.berkeley.edu/people/ramon-weber) on intelligent architectural–structural co-design.
