@@ -5,9 +5,9 @@ permalink: /publication/2026-03-16-HouseMind
 excerpt: 'A multimodal large language model that unifies floor plan understanding, generation, and editing via discrete room-instance tokens, enabling controllable and interpretable operations.'
 date: 2026-03-16
 venue: 'CVPR 2026'
-paperurl: 'https://openaccess.thecvf.com/content/CVPR2026/html/Qin_Tokenization_Allows_Multimodal_Large_Language_Models_to_Understand_Generate_and_CVPR_2026_paper.html'
+paperurl: 'https://arxiv.org/abs/2603.11640'
 projecturl: 'https://housemind.github.io/'
-citation: 'Qin, S.Z., Weber, R.E., Lu, X.Z., 2026. Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 10430–10440. https://openaccess.thecvf.com/content/CVPR2026/html/Qin_Tokenization_Allows_Multimodal_Large_Language_Models_to_Understand_Generate_and_CVPR_2026_paper.html'
+citation: 'Qin, S.Z., Weber, R.E., Lu, X.Z., 2026. Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 10430–10440. https://arxiv.org/abs/2603.11640'
 locale: en
 header:
     teaser: "2026-03-16-HouseMind.png"
