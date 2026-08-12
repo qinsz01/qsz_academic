@@ -1,5 +1,5 @@
 ---
-title: 'HouseMind: Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans'
+title: 'Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans'
 collection: publications
 permalink: /zh/publication/2026-03-16-HouseMind
 excerpt: '一种多模态大语言模型，通过离散房间实例token统一建筑平面图的理解、生成和编辑，实现可控且可解释的操作。'
@@ -7,7 +7,7 @@ date: 2026-03-16
 venue: 'CVPR 2026'
 paperurl: 'https://arxiv.org/abs/2603.11640'
 projecturl: 'https://housemind.github.io/'
-citation: 'QIN S Z, WEBER R E, LU X Z. Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans[C/OL]. CVPR, 2026. https://arxiv.org/abs/2603.11640.'
+citation: 'QIN S Z, WEBER R E, LU X Z. Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans[C/OL]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026. https://arxiv.org/abs/2603.11640.'
 locale: zh
 header:
     teaser: "2026-03-16-HouseMind-zh.png"
