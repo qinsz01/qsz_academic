@@ -7,7 +7,7 @@ date: 2026-03-16
 venue: 'CVPR 2026'
 paperurl: 'https://arxiv.org/abs/2603.11640'
 projecturl: 'https://housemind.github.io/'
-citation: 'QIN S Z, WEBER R E, LU X Z. Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans[C/OL]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026. https://arxiv.org/abs/2603.11640.'
+citation: 'QIN S Z, WEBER R E, LU X Z. Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans[C/OL]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026: 10430–10440. https://arxiv.org/abs/2603.11640.'
 locale: zh
 header:
     teaser: "2026-03-16-HouseMind-zh.png"

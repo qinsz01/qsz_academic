@@ -6,7 +6,7 @@ excerpt: '一种基于多模态离散化和可控生成的端到端广告视频�
 date: 2026-03-30
 venue: 'CVPR 2026'
 paperurl: 'https://arxiv.org/abs/2603.28366'
-citation: 'ZHOU M, QIN S Z, LI Y Z, et al. AutoCut: End-to-end advertisement video editing based on multimodal discretization and controllable generation[C/OL]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026. https://arxiv.org/abs/2603.28366.'
+citation: 'ZHOU M, QIN S Z, LI Y Z, et al. AutoCut: End-to-end advertisement video editing based on multimodal discretization and controllable generation[C/OL]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026: 37777–37787. https://arxiv.org/abs/2603.28366.'
 locale: zh
 header:
     teaser: "2026-03-30-AutoCut.png"
