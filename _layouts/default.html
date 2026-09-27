@@ -1,31 +1,33 @@
----
-layout: compress
----
-
 {% include base_path %}
-
+{% assign lang = page.locale | default: 'en' %}{% assign t = site.data.design[lang] %}{% assign prefix = '' %}{% if lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}
 <!doctype html>
-<html lang="{{ page.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | strip_html | escape }} · {{ t.name }}</title>
+<meta name="description" content="{{ page.excerpt | default: t.researchintro | strip_html | escape }}">
+{% assign description = page.excerpt | default: t.researchintro | strip_html %}
+{% assign social_image = page.header.teaser | default: 'profile.png' | prepend: '/images/' | absolute_url %}
+<meta property="og:title" content="{{ page.title | escape }} · {{ t.name }}"><meta property="og:description" content="{{ description | escape }}"><meta property="og:type" content="website"><meta property="og:url" content="{{ page.url | absolute_url }}"><meta property="og:image" content="{{ social_image }}"><meta property="og:locale" content="{% if lang == 'zh' %}zh_CN{% else %}en_US{% endif %}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ page.title | escape }} · {{ t.name }}"><meta name="twitter:description" content="{{ description | escape }}"><meta name="twitter:image" content="{{ social_image }}">
+{% if lang == 'zh' %}{% assign alternate_url = page.url | remove_first: '/zh' %}{% assign alternate_lang = 'en' %}{% else %}{% assign alternate_url = '/zh' | append: page.url %}{% assign alternate_lang = 'zh' %}{% endif %}
+{% assign alternate_page = site.pages | concat: site.documents | where: 'url', alternate_url | first %}
+<link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">{% if alternate_page %}<link rel="alternate" hreflang="{{ alternate_lang }}" href="{{ alternate_url | absolute_url }}">{% endif %}
+<link rel="canonical" href="{{ page.url | absolute_url }}"><link rel="icon" href="{{ base_path }}/images/favicon.ico">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/site.css">
+<script src="{{ base_path }}/assets/js/site.js" defer></script>
+</head>
+<body data-locale="{{ lang }}" data-copied="{{ t.copied }}" data-copy-fail="{{ t.copyfail }}">
+<a class="skip-link" href="#main">{{ t.skip }}</a>
+<header class="site-header"><div class="shell header-inner">
+<a class="brand" href="{{ base_path }}{{ prefix }}/"><span class="brand-mark" aria-hidden="true">SQ<span>·</span></span><span>{{ t.name }}<small>{% if lang == 'zh' %}Sizhong Qin{% else %}覃思中{% endif %}</small></span></a>
+<nav aria-label="{% if lang == 'zh' %}主导航{% else %}Main navigation{% endif %}">
+<a href="{{ base_path }}{{ prefix }}/#projects">{{ t.projects }}</a><a {% if page.url contains '/publication' %}aria-current="page"{% endif %} href="{{ base_path }}{{ prefix }}/publications/">{{ t.papers }}</a><a {% if page.url contains '/cv/' %}aria-current="page"{% endif %} href="{{ base_path }}{{ prefix }}/cv/">{{ t.cv }}</a><a {% if page.url contains '/posts/' or page.url contains '/year-archive/' %}aria-current="page"{% endif %} href="{{ base_path }}{{ prefix }}/year-archive/">{{ t.news }}</a>
+{% if lang == 'zh' %}{% assign other_url = page.url | remove_first: '/zh' %}{% assign other_label = 'EN' %}{% assign other_lang = 'en' %}{% else %}{% assign other_url = '/zh' | append: page.url %}{% assign other_label = '中文' %}{% assign other_lang = 'zh' %}{% endif %}
+{% assign counterpart = site.pages | concat: site.documents | where: 'url', other_url | first %}{% unless counterpart %}{% if lang == 'zh' %}{% assign other_url = '/' %}{% else %}{% assign other_url = '/zh/' %}{% endif %}{% endunless %}
+<a class="language-link" lang="{{ other_lang }}" hreflang="{{ other_lang }}" href="{{ base_path }}{{ other_url }}">{{ other_label }}</a>
+</nav></div></header>
+<main id="main">{{ content }}</main>
+<footer class="site-footer"><div class="shell footer-inner"><a class="footer-name" href="{{ base_path }}{{ prefix }}/">{{ t.name }}<span> · Tsinghua University</span></a><div><a href="mailto:{{ site.author.email }}">{{ t.email }}</a><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="https://github.com/{{ site.author.github }}">GitHub</a><a href="{{ base_path }}{{ prefix }}/sitemap/">{% if lang == 'zh' %}网站导航{% else %}Sitemap{% endif %}</a></div><p>© {{ site.time | date: '%Y' }} {{ t.name }}.</p></div></footer>
+<div id="copy-status" class="copy-status" role="status" aria-live="polite"></div>
+</body></html>

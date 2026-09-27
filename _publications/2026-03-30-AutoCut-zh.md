@@ -1,6 +1,7 @@
 ---
 title: 'AutoCut: End-to-end advertisement video editing based on multimodal discretization and controllable generation'
 collection: publications
+work_id: 2026-03-30-AutoCut
 permalink: /zh/publication/2026-03-30-AutoCut
 excerpt: '一种基于多模态离散化和可控生成的端到端广告视频编辑框架，在统一流程中实现视频筛选与排序、脚本生成和背景音乐选择。'
 date: 2026-03-30

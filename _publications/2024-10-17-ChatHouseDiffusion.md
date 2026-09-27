@@ -1,6 +1,7 @@
 ---
 title: 'ChatHouseDiffusion: Prompt-Guided Generation and Editing of Floor Plans'
 collection: publications
+work_id: 2024-10-17-ChatHouseDiffusion
 permalink: /publication/2024-10-17-ChatHouseDiffusion
 excerpt: 'Develops a novel approach that utilizes large language models, graphormer, and diffusion models to generate and edit floor plans interactively.'
 date: 2024-10-15

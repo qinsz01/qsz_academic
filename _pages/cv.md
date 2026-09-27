@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Education Experience"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,6 +9,8 @@ locale: en
 ---
 
 {% include base_path %}
+
+## Education
 * 2025.08-2026.02, Visiting Scholar at Center for the Built Environment, UC Berkeley
 * 2023-Present, Ph.D. Student in Civil Engineering, Tsinghua University
 * 2021-2023, Minor in Bachelor of Engineering, Software Engineering, Tsinghua University, GPA: 3.85/4.00, 30 Credits

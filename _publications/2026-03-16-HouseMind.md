@@ -1,6 +1,7 @@
 ---
 title: 'Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans'
 collection: publications
+work_id: 2026-03-16-HouseMind
 permalink: /publication/2026-03-16-HouseMind
 excerpt: 'A multimodal large language model that unifies floor plan understanding, generation, and editing via discrete room-instance tokens, enabling controllable and interpretable operations.'
 date: 2026-03-12
