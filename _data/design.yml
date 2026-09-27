@@ -1,0 +1,136 @@
+en:
+  name: Sizhong Qin
+  home: Home
+  projects: Projects
+  papers: Research
+  cv: CV
+  news: Notes
+  contact: Contact
+  skip: Skip to content
+  allpapers: All research
+  latest: Latest research
+  selected: Selected projects
+  projectintro: Tools and models that connect research with engineering practice.
+  paper: Paper
+  details: Read more
+  abstract: Summary
+  citation: Citation
+  copy: Copy citation
+  bibtex: Copy BibTeX
+  copied: Copied
+  copyfail: Select and copy the text below.
+  filter: Filter research
+  alltopics: All topics
+  allyears: All years
+  clear: Reset filters
+  noresults: No works match these filters.
+  works: Research works
+  lead: First / co-first author
+  projectcount: Featured projects
+  scope: Unique works, including preprints. Bilingual entries count once.
+  preprint: Preprint
+  year: Year
+  topic: Topic
+  firstauthor: First author
+  cofirst: Co-first author
+  correspondingauthor: Corresponding author
+  back: Back to research
+  figure: Open full-size figure
+  print: Print CV
+  updated: Notes & updates
+  email: Email
+  cvintro: Education, experience, and a record of my work.
+  researchintro: Structural engineering, generative models, and language-model agents.
+  agents: Language-model agents
+  generative: Generative design
+  optimization: Design optimization
+  bim: BIM & digital construction
+  resilience: Seismic resilience
+  searchlabel: Search titles and authors
+  searchplaceholder: Search research…
+  count: works shown
+  published: Published
+  readnote: Read note
+  online: Paper available online
+  ready: Explore the work
+  footnote: Built with Jekyll. Designed for reading.
+  more: All notes
+  about: About
+  hero: Intelligent design, grounded in engineering.
+  role: Ph.D. student · Tsinghua University
+  intro: I am a Ph.D. student in <a href="https://www.civil.tsinghua.edu.cn/ce/">Civil Engineering at Tsinghua University</a>, advised by Professor <a href="http://luxinzheng.net">Xinzheng Lu</a>. My research connects structural engineering with generative AI and large language models.
+  visiting: Visiting Scholar · UC Berkeley, Center for the Built Environment · Aug 2025 – Feb 2026
+  reach: Let’s talk about intelligent structural design.
+  researchlabel: RESEARCH / ENGINEERING / AI
+  rolefilter: Authorship / type
+  allroles: All works
+  leadfilter: First / co-first author
+  preprintfilter: Preprints
+zh:
+  name: 覃思中
+  home: 首页
+  projects: 项目
+  papers: 研究成果
+  cv: 简历
+  news: 动态
+  contact: 联系
+  skip: 跳转到正文
+  allpapers: 全部研究成果
+  latest: 近期研究
+  selected: 代表项目
+  projectintro: 连接学术研究与工程实践的工具和模型。
+  paper: 论文
+  details: 查看详情
+  abstract: 研究简介
+  citation: 引用格式
+  copy: 复制引用
+  bibtex: 复制 BibTeX
+  copied: 已复制
+  copyfail: 请选中下方文本复制。
+  filter: 筛选研究成果
+  alltopics: 全部主题
+  allyears: 全部年份
+  clear: 重置筛选
+  noresults: 没有符合筛选条件的成果。
+  works: 研究成果
+  lead: 第一 / 共同第一作者
+  projectcount: 代表项目
+  scope: 按独立作品计数，包含预印本；中英文条目不重复统计。
+  preprint: 预印本
+  year: 年份
+  topic: 主题
+  firstauthor: 第一作者
+  cofirst: 共同一作
+  correspondingauthor: 通讯作者
+  back: 返回研究成果
+  figure: 查看完整图片
+  print: 打印简历
+  updated: 近期动态
+  email: 邮箱
+  cvintro: 教育背景、工作经历与研究记录。
+  researchintro: 结构工程、生成式模型与大语言模型智能体。
+  agents: 语言模型智能体
+  generative: 生成式设计
+  optimization: 设计优化
+  bim: BIM 与数字建造
+  resilience: 抗震与韧性
+  searchlabel: 搜索论文标题和作者
+  searchplaceholder: 搜索研究成果…
+  count: 项成果
+  published: 发表于
+  readnote: 阅读动态
+  online: 论文已上线
+  ready: 了解研究
+  footnote: 使用 Jekyll 构建，专注内容与阅读。
+  more: 全部动态
+  about: 关于我
+  hero: 让智能走进<span class="phrase">建筑与结构设计。</span>
+  role: 清华大学 · 土木工程博士生
+  intro: 我是<a href="https://www.civil.tsinghua.edu.cn/ce/">清华大学土木工程系</a>的博士研究生，导师为<a href="http://luxinzheng.net">陆新征</a>教授。我的研究关注生成式人工智能和大语言模型与结构工程的结合，探索更高效的设计与建造方法。
+  visiting: 访问学者 · 加州大学伯克利分校建筑环境中心 · 2025.08 – 2026.02
+  reach: 欢迎交流建筑结构智能设计与相关研究。
+  researchlabel: 研究 / 工程 / 人工智能
+  rolefilter: 作者 / 类型
+  allroles: 全部成果
+  leadfilter: 第一 / 共同第一作者
+  preprintfilter: 预印本

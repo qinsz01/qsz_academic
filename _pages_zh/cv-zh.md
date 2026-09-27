@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "教育经历"
+title: "个人简历"
 permalink: /zh/cv/
 author_profile: true
 redirect_from:
@@ -10,8 +10,7 @@ locale: zh
 
 {% include base_path %}
 
-<!-- 教育经历
-====== -->
+## 教育经历
 * 2025.08-2026.02，访问学者，加州大学伯克利分校
 * 2023-至今，博士（在读） 土木工程，清华大学
 * 2021-2023，辅修工学学士学位，软件工程，清华大学，GPA: 3.85/4.00， 30学分

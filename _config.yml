@@ -149,6 +149,8 @@ include:
   - files
 exclude:
   # Theme examples and development files are kept in Git, not published.
+  - CONTENT.md
+  - scripts
   - CONTRIBUTING.md
   - deploy
   - markdown_generator

@@ -1,0 +1,109 @@
+2022-07-09-CCC:
+  year: 2022
+  topic: bim
+  authors: Liu, Y., Ma, Z.L., Qin, S.Z., Liu, S.L.
+  preprint: false
+  bibtex: "@inproceedings{Qin20220709CCC,\n  title = {A Cloud-Based System for Supporting Quick Location of Precast Concrete Formwork Using Computer Vision and BIM},\n  author = {Liu, Yu and Ma, Zhiliang and Qin, Sizhong and Liu, Shilong},\n  year = {2022},\n  doi = {10.3311/ccc2022-014},\n  pages = {97-104},\n  booktitle = {Proceedings of the Creative Construction e-Conference 2022}\n}"
+2022-08-01-BIM:
+  year: 2022
+  topic: bim
+  authors: Liu, Y., Ma, Z.L., Liu, S.L., Qin, S.Z., Zhou, F.N., Shi, Q.B.
+  preprint: false
+2023-02-01-C_D:
+  year: 2023
+  topic: resilience
+  authors: Lu, X.Z., Qin, S.Z., Xu, Z.
+  preprint: false
+2023-11-08-IC:
+  year: 2023
+  topic: agents
+  authors: Qin, S.Z., Zheng, Z., Gu, Y., Lu, X.Z.
+  preprint: false
+2023-12-25-EM:
+  year: 2023
+  topic: optimization
+  authors: Qin, S.Z., Liao, W.J., Lin, Y.Q., Lu, X.Z.
+  preprint: false
+2024-02-01-EM:
+  year: 2024
+  topic: bim
+  authors: Zhang, F., Sun, C.J., Qin, S.Z., Zhao, X.Y.
+  preprint: false
+2024-03-04-SC:
+  year: 2024
+  topic: generative
+  authors: Qin, S.Z., Liao, W.J., Huang, S.N., Hu, K.G., Tan, Z., Gao, Y., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20240304SC,\n  title = {AIstructure-Copilot: Assistant for Generative AI-Driven Intelligent Design of Building Structures},\n  author = {Qin, Sizhong and Liao, Wenjie and Huang, Shengnan and Hu, Kongguo and Tan, Zhuang and Gao, Yuan and Lu, Xinzheng},\n  year = {2024},\n  doi = {10.55092/sc20240001},\n  journal = {Smart Construction}\n}"
+2024-07-01-JOBE:
+  year: 2024
+  topic: agents
+  authors: Qin, S.Z., Guan, H., Liao, W.J., Gu, Y., Zheng, Z., Xue, H.J., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20240701JOBE,\n  title = {Intelligent design and optimization system for shear wall structures based on large language models and generative artificial intelligence},\n  author = {Qin, Sizhong and Guan, Hong and Liao, Wenjie and Gu, Yi and Zheng, Zhe and Xue, Hongjing and Lu, Xinzheng},\n  year = {2024},\n  doi = {10.1016/j.jobe.2024.109996},\n  journal = {Journal of Building Engineering},\n  volume = {95},\n  pages = {109996}\n}"
+2024-10-17-ChatHouseDiffusion:
+  year: 2024
+  topic: generative
+  authors: Qin, S.Z., He, C.Y., Chen, Q.Y., Yang, S., Liao, W.J., Gu, Y., Lu, X.Z.
+  preprint: true
+2024-11-14-EESD:
+  year: 2025
+  topic: optimization
+  authors: Tan, Z., Qin, S.Z., Hu, K.G., Liao, W.J., Gao, Y., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20241114EESD,\n  title = {Intelligent generation and optimization method for the retrofit design of RC frame structures using buckling‐restrained braces},\n  author = {Tan, Zhuang and Qin, Sizhong and Hu, Kongguo and Liao, Wenjie and Gao, Yuan and Lu, Xinzheng},\n  year = {2025},\n  doi = {10.1002/eqe.4268},\n  journal = {Earthquake Engineering \\& Structural Dynamics},\n  volume = {54},\n  number = {2},\n  pages = {530-547}\n}"
+2025-01-13-AIC:
+  year: 2025
+  topic: generative
+  authors: Qin, S.Z., Liao, W.J., Huang, Y.L., Zhang, S.L., Gu, Y., Han, J., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20250113AIC,\n  title = {Intelligent design for component size generation in reinforced concrete frame structures using heterogeneous graph neural networks},\n  author = {Qin, Sizhong and Liao, Wenjie and Huang, Yuli and Zhang, Shulu and Gu, Yi and Han, Jin and Lu, Xinzheng},\n  year = {2025},\n  doi = {10.1016/j.autcon.2025.105967},\n  journal = {Automation in Construction},\n  volume = {171},\n  pages = {105967}\n}"
+2025-01-15-ADVEI:
+  year: 2025
+  topic: optimization
+  authors: Fei, Y.F., Qin, S.Z., Liao, W.J., Guan, H., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20250115ADVEI,\n  title = {Graph neural network-assisted evolutionary algorithm for rapid optimization design of shear-wall structures},\n  author = {Fei, Yifan and Qin, Sizhong and Liao, Wenjie and Guan, Hong and Lu, Xinzheng},\n  year = {2025},\n  doi = {10.1016/j.aei.2025.103129},\n  journal = {Advanced Engineering Informatics},\n  volume = {65},\n  pages = {103129}\n}"
+2025-04-15-BEE:
+  year: 2025
+  topic: optimization
+  authors: Qin, S.Z., Liao, W.J., Tan, Z., Hu, K.G., Gao, Y., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20250415BEE,\n  title = {Comparative analysis of intelligent retrofit design methods of RC frame structures using buckling-restrained braces},\n  author = {Qin, Sizhong and Liao, Wenjie and Tan, Zhuang and Hu, Kongguo and Gao, Yuan and Lu, Xinzheng},\n  year = {2025},\n  doi = {10.1007/s10518-025-02164-3},\n  journal = {Bulletin of Earthquake Engineering},\n  volume = {23},\n  number = {8},\n  pages = {3353-3374}\n}"
+2025-06-24-ES:
+  year: 2025
+  topic: optimization
+  authors: Qin, S.Z., Fei, Y.F., Liao, W.J., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20250624ES,\n  title = {Leveraging data-driven artificial intelligence in optimization design for building structures: A review},\n  author = {Qin, Sizhong and Fei, Yifan and Liao, Wenjie and Lu, Xinzheng},\n  year = {2025},\n  doi = {10.1016/j.engstruct.2025.120810},\n  journal = {Engineering Structures},\n  volume = {341},\n  pages = {120810}\n}"
+2026-02-01-CII:
+  year: 2026
+  topic: generative
+  authors: Gu, Y., Qin, S.Z., Liao, W.J., Lu, X.Z.
+  preprint: false
+  bibtex: "@article{Qin20260201CII,\n  title = {Intelligent design of dimensions of reinforced concrete frame structure components using diffusion models},\n  author = {Gu, Yi and Qin, Sizhong and Liao, Wenjie and Lu, Xinzheng},\n  year = {2026},\n  doi = {10.1016/j.compind.2025.104428},\n  journal = {Computers in Industry},\n  volume = {175},\n  pages = {104428}\n}"
+2026-03-16-HouseMind:
+  year: 2026
+  topic: generative
+  authors: Qin, S.Z., Weber, R.E., Lu, X.Z.
+  preprint: false
+  bibtex: "@inproceedings{20260316HouseMind,\n  title = {Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans},\n  author = {Qin, Sizhong and Weber, Ramon Elias and Lu, Xinzheng},\n  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2026},\n  pages = {10430--10440}\n}"
+2026-03-30-AutoCut:
+  year: 2026
+  topic: generative
+  authors: Zhou, M., Qin, S.Z., Li, Y.Z., Chen, Q., Jiang, P.
+  preprint: false
+  bibtex: "@inproceedings{20260330AutoCut,\n  title = {AutoCut: End-to-end advertisement video editing based on multimodal discretization and controllable generation},\n  author = {Zhou, Milton and Qin, Sizhong and Li, Yongzhi and Chen, Quan and Jiang, Peng},\n  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n  year = {2026},\n  pages = {37777--37787}\n}"
+2026-07-16-StructureClaw:
+  year: 2026
+  topic: agents
+  authors: Qin, S.Z., Gu, Y., Jiang, Y., Cai, A., Zhou, C.J., Shuai, S.X., Wang, J.C., Shen, T.H., Li, Y.Q., Li, X.H., Zeng, L., Chen, Y.S., Gao, D.C., Xu, G.R., Liao, W.J., Lu, X.Z.
+  preprint: true
+  authors_short: Qin, S.Z., Gu, Y., Jiang, Y., et al.
+  bibtex: "@misc{20260716StructureClaw,\n  title = {StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows},\n  author = {Qin, Sizhong and Gu, Yi and Jiang, Yao and Cai, Ao and Zhou, Changjian and Shuai, Shaoxuan and Wang, Jiachang and Shen, Tianhao and Li, Yueqiang and Li, Xinhao and Zeng, Li and Chen, Yueshi and Gao, Dachen and Xu, Genrong and Liao, Wenjie and Lu, Xinzheng},\n  year = {2026},\n  eprint = {2607.14896},\n  archivePrefix = {arXiv},\n  url = {https://arxiv.org/abs/2607.14896}\n}"
+2026-08-07-LAMDA:
+  year: 2026
+  topic: agents
+  authors: Hong, Y., Qin, S.Z., Wang, C.
+  preprint: false
+  bibtex: "@article{Qin20260807LAMDA,\n  title = {LAMDA: Large Language Model as Decision Analyst},\n  author = {Hong, Yifan and Qin, Sizhong and Wang, Chen},\n  year = {2026},\n  doi = {10.1287/deca.2025.0438},\n  journal = {Decision Analysis}\n}"

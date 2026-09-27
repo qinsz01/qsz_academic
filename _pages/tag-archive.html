@@ -19,7 +19,7 @@ locale: en
   {% endfor %}
 {% endfor %}
 
-<h1>Posts</h1>
+<h2>Posts</h2>
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}

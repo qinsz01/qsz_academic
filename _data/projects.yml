@@ -1,0 +1,70 @@
+- id: structureclaw
+  name: StructureClaw
+  image: structureclaw-project.png
+  url: https://github.com/structureclaw/structureclaw
+  paper: https://arxiv.org/abs/2607.14896
+  label:
+    en: Open-source workspace
+    zh: 开源工作空间
+  description:
+    en: From an engineering request to an inspectable structural workflow.
+    zh: 从自然语言工程需求，到可检查的结构工程工作流。
+  features:
+    en:
+    - Model & validate
+    - Analyze & check
+    - Trace & report
+    zh:
+    - 建模与验证
+    - 分析与校核
+    - 追踪与报告
+  linklabel:
+    en: Explore repository
+    zh: 访问代码仓库
+- id: copilot
+  name: AI-structure Copilot
+  image: 2024-03-04-SC.png
+  url: https://ai-structure.com/
+  paper: https://doi.org/10.55092/sc20240001
+  label:
+    en: Engineering design assistant
+    zh: 工程设计助手
+  description:
+    en: Generative structural design, integrated into the CAD workflow.
+    zh: 将生成式结构设计融入工程师的 CAD 工作流程。
+  features:
+    en:
+    - Local–cloud collaboration
+    - Shear wall design
+    - Analysis models
+    zh:
+    - 本地与云端协同
+    - 剪力墙结构设计
+    - 分析模型生成
+  linklabel:
+    en: Visit platform
+    zh: 访问平台
+- id: housemind
+  name: HouseMind
+  image: 2026-03-16-HouseMind.png
+  image_zh: 2026-03-16-HouseMind-zh.png
+  url: https://housemind.github.io/
+  paper: https://arxiv.org/abs/2603.11640
+  label:
+    en: Multimodal floor plan model
+    zh: 多模态建筑平面模型
+  description:
+    en: Understand, generate, and edit floor plans with a shared token vocabulary.
+    zh: 用统一的离散表征，理解、生成与编辑建筑平面图。
+  features:
+    en:
+    - Layout understanding
+    - Controllable generation
+    - Interactive editing
+    zh:
+    - 平面理解
+    - 可控生成
+    - 交互编辑
+  linklabel:
+    en: Project & resources
+    zh: 项目与资源
