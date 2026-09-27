@@ -14,7 +14,7 @@ name                     : &name "Sizhong Qin"
 description              : &description "PhD student, Civil Engineering, Tsinghua University"
 url                      : "https://qinsz01.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/qsz_academic" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "qinsz01/qsz_academic"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -148,6 +148,29 @@ include:
   - _pages
   - files
 exclude:
+  # Theme examples and development files are kept in Git, not published.
+  - CONTRIBUTING.md
+  - deploy
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - _pages/archive-layout-with-content.md
+  - _pages/terms.md
+  - _pages/experience.html
+  - _pages/portfolio.html
+  - _pages/talks.html
+  - _pages_zh/experience-zh.html
+  - _pages_zh/portfolio-zh.html
+  - _pages_zh/talks-zh.html
+  - images/manifest.json
+  - images/browserconfig.xml
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

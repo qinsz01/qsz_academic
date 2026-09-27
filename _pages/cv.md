@@ -9,14 +9,14 @@ locale: en
 ---
 
 {% include base_path %}
-* 2025.08-2026.02, Visiting Scholar at Center for Built Environment, UC Berkeley
+* 2025.08-2026.02, Visiting Scholar at Center for the Built Environment, UC Berkeley
 * 2023-Present, Ph.D. Student in Civil Engineering, Tsinghua University
 * 2021-2023, Minor in Bachelor of Engineering, Software Engineering, Tsinghua University, GPA: 3.85/4.00, 30 Credits
 * 2019-2023, Major in Bachelor of Engineering, Civil, Hydraulic, and Marine Engineering (Civil Engineering Focus), Tsinghua University, GPA: 3.98/4.00, 191 Credits
 
 ## Work Experience
 
-* 2025.06-2025.08, Intership, MLLM Algorithm Engineer, Kuaishou Technology
+* 2025.06-2025.08, Internship, MLLM Algorithm Engineer, Kuaishou Technology
 * 2023-2024, Teaching Assistant for Undergraduate Course "Civil Engineering and Disaster Mitigation"
 * 2023-2024, Teaching Assistant for Graduate Course "Disaster Science"
 * 2020-2022, Member, Minister, and President, Student Association for Science and Technology, Department of Civil Engineering and Construction Management, Tsinghua University
@@ -25,7 +25,7 @@ locale: en
 ## Honors
 
 ### Education
-* 2024.12，Tsinghua University First-Class Comprehensive Excellence Scholarship
+* 2024.12, Tsinghua University First-Class Comprehensive Excellence Scholarship
 * 2023.08, Tsinghua University Ph.D. "Future Scholar" Scholarship
 * 2023.07, Beijing Outstanding Graduate
 * 2023.06, Tsinghua University Outstanding Graduate
@@ -52,7 +52,7 @@ locale: en
 
 ## Skills
 * **Computer Skills**
-  * **Programming Languages:** Python, C, C++, C#, Java, JS, Matlab, SQL
+  * **Programming Languages:** Python, C, C++, C#, Java, JavaScript, MATLAB, SQL
   * **Frontend:** Vue.js
   * **Backend:** Django, Flask
   * **Operating Systems:** Windows, Linux
@@ -60,7 +60,7 @@ locale: en
 * **Finite Element Analysis**
   * Marc, Midas, SAP2000
 * **Modeling and Drawing**
-  * AutoCAD, Revit, Sketchup
+  * AutoCAD, Revit, SketchUp
 
 ## Publications
 <ul>{% for post in site.publications reversed %}
