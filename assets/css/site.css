@@ -11,3 +11,5 @@
 .hero-statement,.section-title h2,.contact-band h2{text-wrap:balance}
 
 .hero-statement .phrase{display:inline-block;white-space:nowrap}
+
+.contact-band>div,.footer-inner>div{flex-wrap:wrap}

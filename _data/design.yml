@@ -34,6 +34,8 @@ en:
   firstauthor: First author
   cofirst: Co-first author
   correspondingauthor: Corresponding author
+  english: English paper
+  chinese: Chinese paper
   back: Back to research
   figure: Open full-size figure
   print: Print CV
@@ -102,6 +104,8 @@ zh:
   firstauthor: 第一作者
   cofirst: 共同一作
   correspondingauthor: 通讯作者
+  english: 英文论文
+  chinese: 中文论文
   back: 返回研究成果
   figure: 查看完整图片
   print: 打印简历

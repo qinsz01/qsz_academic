@@ -13,6 +13,7 @@
 {% if lang == 'zh' %}{% assign alternate_url = page.url | remove_first: '/zh' %}{% assign alternate_lang = 'en' %}{% else %}{% assign alternate_url = '/zh' | append: page.url %}{% assign alternate_lang = 'zh' %}{% endif %}
 {% assign alternate_page = site.pages | concat: site.documents | where: 'url', alternate_url | first %}
 <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">{% if alternate_page %}<link rel="alternate" hreflang="{{ alternate_lang }}" href="{{ alternate_url | absolute_url }}">{% endif %}
+{% if site.atom_feed.hide != true %}<link rel="alternate" type="application/atom+xml" href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" title="{{ t.name }} — RSS">{% endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}"><link rel="icon" href="{{ base_path }}/images/favicon.ico">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/site.css">
 <script src="{{ base_path }}/assets/js/site.js" defer></script>
@@ -28,6 +29,6 @@
 <a class="language-link" lang="{{ other_lang }}" hreflang="{{ other_lang }}" href="{{ base_path }}{{ other_url }}">{{ other_label }}</a>
 </nav></div></header>
 <main id="main">{{ content }}</main>
-<footer class="site-footer"><div class="shell footer-inner"><a class="footer-name" href="{{ base_path }}{{ prefix }}/">{{ t.name }}<span> · Tsinghua University</span></a><div><a href="mailto:{{ site.author.email }}">{{ t.email }}</a><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="https://github.com/{{ site.author.github }}">GitHub</a><a href="{{ base_path }}{{ prefix }}/sitemap/">{% if lang == 'zh' %}网站导航{% else %}Sitemap{% endif %}</a></div><p>© {{ site.time | date: '%Y' }} {{ t.name }}.</p></div></footer>
+<footer class="site-footer"><div class="shell footer-inner"><a class="footer-name" href="{{ base_path }}{{ prefix }}/">{{ t.name }}<span> · Tsinghua University</span></a><div><a href="mailto:{{ site.author.email }}">{{ t.email }}</a><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="https://github.com/{{ site.author.github }}">GitHub</a>{% if site.author.linkedin and site.author.linkedin != "" %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>{% endif %}<a href="{{ base_path }}{{ prefix }}/sitemap/">{% if lang == 'zh' %}网站导航{% else %}Sitemap{% endif %}</a>{% if site.atom_feed.hide != true %}<a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">RSS</a>{% endif %}</div><p>© {{ site.time | date: '%Y' }} {{ t.name }}.</p></div></footer>
 <div id="copy-status" class="copy-status" role="status" aria-live="polite"></div>
 </body></html>
