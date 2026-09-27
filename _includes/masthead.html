@@ -25,6 +25,12 @@
               {% else %}
               {% assign new_url = link.url %}
             {% endif %}
+            {% if link.url == 'zh' or link.url == 'en' %}
+              {% assign translated_page = site.pages | concat: site.documents | where: "url", new_url | first %}
+              {% unless translated_page %}
+                {% if link.url == 'zh' %}{% assign new_url = '/zh/' %}{% else %}{% assign new_url = '/' %}{% endif %}
+              {% endunless %}
+            {% endif %}
             <li class="masthead__menu-item{% if link.url != 'zh' and link.url != 'en' and page.url contains link.url %} masthead__menu-item--active{% endif %}"><a href="{{ domain }}{{ new_url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>

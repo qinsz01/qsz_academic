@@ -3,7 +3,7 @@ title: 'Tokenization Allows Multimodal Large Language Models to Understand, Gene
 collection: publications
 permalink: /publication/2026-03-16-HouseMind
 excerpt: 'A multimodal large language model that unifies floor plan understanding, generation, and editing via discrete room-instance tokens, enabling controllable and interpretable operations.'
-date: 2026-03-16
+date: 2026-03-12
 venue: 'CVPR 2026'
 paperurl: 'https://arxiv.org/abs/2603.11640'
 projecturl: 'https://housemind.github.io/'
