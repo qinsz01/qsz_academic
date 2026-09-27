@@ -26,7 +26,7 @@ en:
   noresults: No works match these filters.
   works: Research works
   lead: First / co-first author
-  projectcount: Featured projects
+  correspondingcount: Corresponding-author works
   scope: Unique works, including preprints. Bilingual entries count once.
   preprint: Preprint
   year: Year
@@ -94,7 +94,7 @@ zh:
   noresults: 没有符合筛选条件的成果。
   works: 研究成果
   lead: 第一 / 共同第一作者
-  projectcount: 代表项目
+  correspondingcount: 通讯作者成果
   scope: 按独立作品计数，包含预印本；中英文条目不重复统计。
   preprint: 预印本
   year: 年份

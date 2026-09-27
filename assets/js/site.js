@@ -7,13 +7,13 @@ document.documentElement.classList.add('js');
     const year = document.querySelector('#year-filter');
     const role = document.querySelector('#role-filter');
     const initialRole = new URLSearchParams(location.search).get('role');
-    if (['lead', 'preprint'].includes(initialRole)) role.value = initialRole;
+    if (['lead', 'corresponding', 'preprint'].includes(initialRole)) role.value = initialRole;
     const cards = [...document.querySelectorAll('[data-work]')];
     const update = () => {
       const query = search.value.trim().toLocaleLowerCase();
       let count = 0;
       cards.forEach(card => {
-        card.hidden = !!((query && !card.dataset.search.includes(query)) || (topic.value && card.dataset.topic !== topic.value) || (year.value && card.dataset.year !== year.value) || (role.value === 'lead' && card.dataset.lead !== 'true') || (role.value === 'preprint' && card.dataset.preprint !== 'true'));
+        card.hidden = !!((query && !card.dataset.search.includes(query)) || (topic.value && card.dataset.topic !== topic.value) || (year.value && card.dataset.year !== year.value) || (role.value === 'lead' && card.dataset.lead !== 'true') || (role.value === 'corresponding' && card.dataset.corresponding !== 'true') || (role.value === 'preprint' && card.dataset.preprint !== 'true'));
         if (!card.hidden) count++;
       });
       document.querySelectorAll('[data-year-group]').forEach(group => { group.hidden = !group.querySelector('[data-work]:not([hidden])'); });
