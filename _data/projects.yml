@@ -35,11 +35,11 @@
   features:
     en:
     - Local–cloud collaboration
-    - Shear wall design
+    - Shear wall design & optimization
     - Analysis models
     zh:
     - 本地与云端协同
-    - 剪力墙结构设计
+    - 剪力墙结构设计与优化
     - 分析模型生成
   linklabel:
     en: Visit platform
