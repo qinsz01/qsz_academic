@@ -3,6 +3,6 @@ layout: default
 ---
 {% assign t = site.data.design[page.locale] %}
 <div class="shell page-shell {% if page.url contains '/cv/' %}cv-page{% endif %}">
-<header class="page-heading"><p class="eyebrow">{{ t.name }} / {% if page.url contains '/cv/' %}{{ t.cv }}{% elsif page.url contains '/publication' %}{{ t.papers }}{% else %}{{ t.news }}{% endif %}</p><h1>{{ page.title }}</h1>{% if page.url contains '/cv/' %}<p>{{ t.cvintro }}</p><button class="text-button print-button js-only" data-print>{{ t.print }} ↗</button>{% endif %}</header>
+<header class="page-heading"><p class="eyebrow">{{ t.name }} / {% if page.url contains '/cv/' %}{{ t.cv }}{% elsif page.url contains '/publication' %}{{ t.papers }}{% elsif page.url contains '/sitemap/' %}{% if page.locale == 'zh' %}网站导航{% else %}Sitemap{% endif %}{% else %}{{ t.news }}{% endif %}</p><h1>{{ page.title }}</h1>{% if page.url contains '/cv/' %}<p>{{ t.cvintro }}</p><button class="text-button print-button js-only" data-print>{{ t.print }} ↗</button>{% endif %}</header>
 <div class="page-content">{{ content }}</div>
 </div>
