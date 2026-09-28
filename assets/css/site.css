@@ -13,3 +13,5 @@
 .hero-statement .phrase{display:inline-block;white-space:nowrap}
 
 .contact-band>div,.footer-inner>div{flex-wrap:wrap}
+
+.sitemap-index{max-width:940px}.sitemap-index>p{color:var(--muted)}.sitemap-index section{margin-top:38px}.sitemap-index h2{font-size:23px}.sitemap-count{font:14px var(--sans);color:var(--muted);margin-left:8px}.sitemap-main ul{display:flex;flex-wrap:wrap;gap:12px 28px;list-style:none;padding:0}.sitemap-list{list-style:none;padding:0}.sitemap-list li{display:grid;grid-template-columns:92px minmax(0,1fr);gap:20px;padding:13px 0;border-bottom:1px solid var(--line);margin:0}.sitemap-list time,.sitemap-year{font-size:12px;color:var(--muted);padding-top:3px}.sitemap-list a{font-size:15px;line-height:1.65;overflow-wrap:anywhere}@media(max-width:700px){.sitemap-list li{grid-template-columns:75px minmax(0,1fr);gap:12px}.sitemap-list a{font-size:13px}.sitemap-list time{font-size:10px}}

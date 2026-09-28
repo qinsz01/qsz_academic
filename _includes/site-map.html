@@ -1,0 +1,12 @@
+{% include base_path %}{% assign t = site.data.design[page.locale] %}{% assign prefix = '' %}{% if page.locale == 'zh' %}{% assign prefix = '/zh' %}{% endif %}
+<div class="sitemap-index">
+<p>{% if page.locale == 'zh' %}浏览主要页面、研究成果与动态。{% else %}Explore the main pages, research works, and notes.{% endif %}</p>
+<nav class="sitemap-main" aria-label="{% if page.locale == 'zh' %}主要页面{% else %}Main pages{% endif %}">
+<h2>{% if page.locale == 'zh' %}主要页面{% else %}Main pages{% endif %}</h2>
+<ul><li><a href="{{ base_path }}{{ prefix }}/">{% if page.locale == 'zh' %}首页{% else %}Home{% endif %}</a></li><li><a href="{{ base_path }}{{ prefix }}/publications/">{{ t.papers }}</a></li><li><a href="{{ base_path }}{{ prefix }}/cv/">{{ t.cv }}</a></li><li><a href="{{ base_path }}{{ prefix }}/year-archive/">{{ t.news }}</a></li><li><a href="{{ base_path }}{{ prefix }}/tags/">{% if page.locale == 'zh' %}按标签浏览{% else %}Browse by tag{% endif %}</a></li>{% if page.locale == 'en' %}<li><a href="{{ base_path }}/categories/">Browse by category</a></li>{% endif %}</ul>
+</nav>
+{% assign papers = site.publications | where: 'locale', page.locale | sort: 'date' | reverse %}
+<section><h2>{{ t.papers }} <span class="sitemap-count">{{ papers.size }}</span></h2><ul class="sitemap-list">{% for item in papers %}<li><span class="sitemap-year">{{ site.data.works[item.work_id].year }}</span><a href="{{ base_path }}{{ item.url }}">{{ item.title | escape }}</a></li>{% endfor %}</ul></section>
+{% assign notes = site.posts | where: 'locale', page.locale | sort: 'date' | reverse %}
+<section><h2>{{ t.news }} <span class="sitemap-count">{{ notes.size }}</span></h2><ul class="sitemap-list">{% for item in notes %}<li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%Y.%m.%d' }}</time><a href="{{ base_path }}{{ item.url }}">{{ item.title | escape }}</a></li>{% endfor %}</ul></section>
+</div>
