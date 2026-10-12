@@ -27,7 +27,8 @@ locale: en
 ## Honors
 
 ### Education
-* 2024.12, Tsinghua University First-Class Comprehensive Excellence Scholarship
+* 2025.12, Tsinghua University First-Class Comprehensive Excellence Scholarship (University-level)
+* 2024.12, Tsinghua University First-Class Comprehensive Excellence Scholarship (University-level)
 * 2023.08, Tsinghua University Ph.D. "Future Scholar" Scholarship
 * 2023.07, Beijing Outstanding Graduate
 * 2023.06, Tsinghua University Outstanding Graduate
