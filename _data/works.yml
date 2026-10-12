@@ -47,6 +47,7 @@
   authors: Qin, S.Z., Chen, S.Q., He, C.Y., Chen, Q.Y., Yang, S., Liao, W.J., Gu, Y., Lu, X.Z.
   preprint: false
   bibtex: "@article{Qin2025ChatHouseDiffusion,\n  title = {{ChatHouseDiffusion}: Prompt-guided generation and editing of floor plans},\n  author = {Qin, Sizhong and Chen, Siqi and He, Chengyu and Chen, Qiaoyun and Yang, Sen and Liao, Wenjie and Gu, Yi and Lu, Xinzheng},\n  year = {2025},\n  doi = {10.11918/202505066},\n  journal = {Journal of Harbin Institute of Technology},\n  volume = {57},\n  number = {12},\n  pages = {245--253},\n  language = {Chinese}\n}"
+  preprint_bibtex: "@misc{Qin2024ChatHouseDiffusion,\n  title = {{ChatHouseDiffusion}: Prompt-Guided Generation and Editing of Floor Plans},\n  author = {Qin, Sizhong and He, Chengyu and Chen, Qiaoyun and Yang, Sen and Liao, Wenjie and Gu, Yi and Lu, Xinzheng},\n  year = {2024},\n  eprint = {2410.11908},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.HC},\n  doi = {10.48550/arXiv.2410.11908},\n  url = {https://arxiv.org/abs/2410.11908}\n}"
 2024-11-14-EESD:
   year: 2025
   topic: optimization

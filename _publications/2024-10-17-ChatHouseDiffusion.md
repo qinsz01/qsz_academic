@@ -7,6 +7,8 @@ excerpt: 'Develops a novel approach that utilizes large language models, graphor
 date: 2024-10-15
 venue: 'Journal of Harbin Institute of Technology'
 paperurl: 'https://doi.org/10.11918/202505066'
+preprinturl: 'https://arxiv.org/abs/2410.11908'
+preprintcitation: 'Qin, S.Z., He, C.Y., Chen, Q.Y., Yang, S., Liao, W.J., Gu, Y., Lu, X.Z., 2024. ChatHouseDiffusion: Prompt-Guided Generation and Editing of Floor Plans. arXiv:2410.11908. DOI:10.48550/arXiv.2410.11908.'
 citation: 'Qin, S.Z., Chen, S.Q., He, C.Y., Chen, Q.Y., Yang, S., Liao, W.J., Gu, Y., Lu, X.Z., 2025. ChatHouseDiffusion: Prompt-guided generation and editing of floor plans. Journal of Harbin Institute of Technology 57(12), 245–253 (in Chinese). DOI:10.11918/202505066.'
 locale: en
 header:

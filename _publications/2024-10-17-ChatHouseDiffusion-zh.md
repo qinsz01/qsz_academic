@@ -7,6 +7,8 @@ excerpt: '开发了一种新方法，利用大语言模型、Graphormer和扩散
 date: 2024-10-15
 venue: '哈尔滨工业大学学报'
 paperurl: 'https://doi.org/10.11918/202505066'
+preprinturl: 'https://arxiv.org/abs/2410.11908'
+preprintcitation: 'Qin, S.Z., He, C.Y., Chen, Q.Y., Yang, S., Liao, W.J., Gu, Y., Lu, X.Z., 2024. ChatHouseDiffusion: Prompt-Guided Generation and Editing of Floor Plans. arXiv:2410.11908. DOI:10.48550/arXiv.2410.11908.'
 citation: '覃思中, 陈思齐, 何承昱, 陈巧云, 杨森, 廖文杰, 顾燚, 陆新征. ChatHouseDiffusion:提示词引导的建筑平面图生成与编辑方法[J]. 哈尔滨工业大学学报, 2025, 57(12): 245–253. DOI:10.11918/202505066.'
 locale: zh
 header:
