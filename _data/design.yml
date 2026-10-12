@@ -15,6 +15,8 @@ en:
   details: Read more
   abstract: Summary
   citation: Citation
+  journalcitation: Published Chinese journal article
+  englishpreprint: English arXiv preprint
   copy: Copy citation
   bibtex: Copy BibTeX
   copied: Copied
@@ -85,6 +87,8 @@ zh:
   details: 查看详情
   abstract: 研究简介
   citation: 引用格式
+  journalcitation: 中文期刊正式版
+  englishpreprint: 英文 arXiv 预印本
   copy: 复制引用
   bibtex: 复制 BibTeX
   copied: 已复制
